@@ -3,6 +3,11 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import train from '../assets/dog_train.jpg'
+import preen from '../assets/dog_preen.png'
+import walk from '../assets/dog_walk.jpg'
+import sit from '../assets/dog_sit.jpg'
+import retreat from '../assets/dog_retreat.jpg'
 
 const Cards = () => {
   const settings = {
@@ -33,10 +38,12 @@ const Cards = () => {
   };
 
   const names = ['DOG WALKING', 'DOG PREENING', 'DOG TRAINING', 'DOG BOARDING', 'DOG RETREAT', 'DOG SITTING'];
+  const imgs = [train, preen, walk, retreat, train, sit];
 
-  const cards = names.map((name) => {
+  const cards = names.map((name, index) => {
     return {
       title: name,
+      img: imgs[index]
     };
   });
 
@@ -51,7 +58,7 @@ const Cards = () => {
                 <button>Book Now</button>
               </div>
               <div className="card-image">
-                <img src="https://via.placeholder.com/170x220" alt="Placeholder Image" />
+                <img src={card.img} alt="Placeholder Image" />
               </div>
             </div>
           ))}
