@@ -39,7 +39,7 @@ body {
   color: rgba(255, 255, 255, 0.87);
   padding: 0.1rem 0.5rem;
   position: sticky;
-  top: 0; /* Add this line */
+  top: 0;
   z-index: 999;
 }
 
@@ -83,7 +83,7 @@ body {
 }
 
 .carousel {
-  width: calc(100% - 60px); /* Subtract the total horizontal margin from the width */
+  width: calc(100% - 60px);
 }
 
 .slick-slide {
@@ -102,16 +102,16 @@ body {
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
-  background-color: #073b4c; /* light blue */
-  color: white; /* dark blue */
+  background-color: #073b4c;
+  color: white;
   border-radius: 1.5rem;
-  height: 220px; /* Set a specific height */
+  height: 220px;
   width: 390px !important;
   transition: transform 0.5s ease;
-  display: flex !important; /* Add this line */
-  justify-content: space-between; /* Add this line */
+  display: flex !important; 
+  justify-content: space-between; 
   align-items: center;
-  flex-direction: row; /* Stack items vertically */
+  flex-direction: row;
   margin: 0 auto;
 }
 
@@ -164,13 +164,13 @@ body {
   align-items: center;
   justify-content: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  background-color: #ffd166; /* Yellow background */
-  color: #ffffff; /* White text */
+  background-color: #ffd166;
+  color: #ffffff;
   border-radius: 1.5rem;
-  width: 90%; /* Adjust as needed */
-  height: 500px; /* Adjust as needed */
+  width: 90%;
+  height: 500px;
   margin: 2rem;
-  overflow: hidden; /* Hide anything that goes outside the card */
+  overflow: hidden;
 }
 
 .coming-soon-card:before {
@@ -201,7 +201,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: left;
-  width: 50%; /* Adjust as needed */
+  width: 50%; 
   height: 100%;
   position: absolute;
   left: 0;
@@ -210,13 +210,13 @@ body {
 
 .coming-soon-card-content h1 {
   font-size: 3rem;
-  color: #073b4c; /* White text */
+  color: #073b4c; 
   margin-bottom: 1rem;
 }
 
 .coming-soon-card-content h2 {
   font-size: 1.5rem;
-  color: #073b4c; /* White text */
+  color: #073b4c;
 }
 
 .aboutus {
