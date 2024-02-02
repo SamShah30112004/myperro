@@ -22,6 +22,10 @@ const Cards = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          speed: 1000,
+          autoplay: true,
+          autoplaySpeed: 4000, // Increase this to increase the time between auto-play transitions
+          pauseOnHover: true,
           rows: 1, // only one row
         },
       },

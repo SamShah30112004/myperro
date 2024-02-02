@@ -430,3 +430,177 @@ body {
 .footer p {
   margin: 0;
 }
+
+@media (max-width: 767px) {
+  .navbar {
+    padding: 0.3rem 0.5rem;
+  }
+  
+  .navbar-logo img {
+    width: 15%;
+  }
+  
+  .navbar-nav {
+    width: 120% !important;
+  }
+  
+  .navbar-nav a {
+    font-size: 0.75rem;
+  }
+
+  .home-page{
+    height: 90vh;
+  }
+
+  .card{
+    padding: 8px;
+    width: 80% !important;
+    height: 15% !important;
+  }
+
+  .card-content h1{
+    font-size: 1.4rem;
+  }
+  
+  .card-content button {
+    padding: 0.25rem 0.5rem;
+    width: 100px;
+  }
+  
+  .card-image img{
+    width: 125px;
+    height: 180px;
+  }
+
+  .coming-soon-cards {
+    height: 54vh;
+  }
+  
+  .coming-soon-cards h1 {
+    font-size: 2.5rem;
+  }
+  
+  .coming-soon-card {
+    width: 90%;
+    height: 300px;
+    margin: 2rem;
+  }
+  
+  .coming-soon-card:before {
+    display: none;
+  }
+  
+  .coming-soon-card-content {
+    width: 95%;
+    align-items: center;
+    margin: 1rem;
+  }
+  
+  .coming-soon-card-content h1 {
+    font-size: 2.5rem;
+  }
+  
+  .coming-soon-card-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .aboutus h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #073b4c;
+  }
+  
+  .aboutus-card {
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 650px;
+  }
+  
+  .aboutus-content {
+    display: none;
+  }
+  
+  .aboutus-info {
+    border: 2px solid #ffd166;
+    width: 100%;
+    height: 520px;
+    margin: 2rem;
+    margin-left: 2rem;
+    padding: 2rem;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.7rem;
+  }
+
+  .our-reviews {
+    height: 100vh;
+    background-color: white;
+    position: relative;
+  }
+  
+  .our-reviews h1 {
+    font-size: 2.5rem;
+    color: #333;
+    position: absolute;
+    left: 0;
+    transform: translateX(45%) translateY(-50px);
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+  
+  .reviews-section {
+    flex-direction: column;
+  }
+  
+  .rating-category h3 {
+    font-size: 1.4rem;
+    margin: 1rem;
+  }
+  
+  .overall-content {
+    transform: translateY(-20px);
+  }
+  
+  .overall-ratings {
+    width: 75%;
+    margin: 2rem;
+  }
+  
+  .overall-ratings h2 {
+    font-size: 2rem;
+  }
+  
+  .overall-ratings button {
+    transform: translateY(0px);
+  }
+  
+  .reviews {
+    width: 85%;
+    margin: 0 auto;
+  }
+  
+  .reviews-card {
+    width: 250px !important;
+    padding: 3rem;
+    margin: 2rem;
+    height: 300px;
+  }
+
+  .contact-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 55vh;
+    background-color: #073b4c;
+    color: #ffd166;
+  }
+  
+  .contact-us form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+  
+}
